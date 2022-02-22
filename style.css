@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-section {
+    background: #151414;
+    position: relative;
+}
+
+.footer-cta{
+    border-bottom:  1px solid gray;
+    margin-bottom: 2.5rem;
+}
+
+.single-cta i {
+    color: #ff5e14;
+    font-size: 30px;
+    font-weight: 600 ;
+    margin-bottom: 1.2rem;
+    position: relative;
+    border-bottom: 2px solid #ff5e14;;
+    padding-bottom: 1.1rem;
+    border-radius: 4px;
+    
+}
+
+
+.cta-text{
+    color: gray;
+    /* font-size: px; */
+    font-weight: 600;
+
+}
+
+.footer-content{
+    position: relative;
+    z-index: 2;
+}
+
+.footer-logo img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    font-size: 20px;
+    margin-bottom: 1.9rem;
+    line-height: 21px;
+    color: rgba(128, 128, 128, 0.781);
+}
+
+.footer-social-icon span {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    display: block;
+}
+
+.footer-social-icon a {
+    margin-right: 15px;
+    color:  white;
+    font-size: 30px;
+    line-height: 2px;
+    
+}
+
+.footer-social-icon i {
+    width: 55px;
+    height: 55px;
+   text-align: center;
+   border-radius: 50px;
+   line-height: 45px;
+ 
+   
+}
+
+.fa-facebook-f{
+    background:#3b5998;
+}
+.fa-twitter{
+    background:#55acee;
+}
+.fa-instagram{
+    background:#e93b81;
+}
+
+.fa-instagram:hover {
+    color: rgb(255, 0, 0);
+    background: #ff5e14;
+}
+.fa-facebook-f:hover {
+    color: #3b5998;
+    background: #ff5e14;
+}
+.fa-twitter:hover {
+    color: #55acee;
+    background: #ff5e14;
+}
+
+.footer-widget-heading h3{
+    color: white;
+    position: relative;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 40px;
+  
+}
+
+.footer-widget-heading h3::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -15px;     
+    height: 2.5px;
+    width: 50px;
+    /* bottom -15 will give for giving the line bellow and height2.5 giving for line hegiht, as well width 50px for line width  */
+    background: #ff5e14; 
+    border-radius: 5px;
+}
+
+
+
+.footer-widget ul li {
+    display: inline-block ;
+    float: left;
+    width: 50%;
+    margin-bottom: 1.2rem;
+}
+
+
+
+.footer-widget ul li a{
+   color: gray;
+   text-transform: capitalize;
+   text-decoration: none;
+}
+
+.footer-widget ul li a:hover{
+    color: #ff5e14;
+}
+
+.subscribe-form{
+    position: relative;
+    overflow: hidden;
+}
+
+.subscribe-form input{
+    width: 100%;
+    padding: 15px 15px;
+    background: #373636;;
+    color: whitesmoke;
+    border: 1px solid #ff5e14 ;
+
+}
+
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px 20px;
+    background: #ff5e14; 
+    border: 1px solid #ff5e14;
+}
+
+.subscribe-form button i{
+   color: rgb(8, 2, 2);
+   font-size: 30px;
+}
+
+
+.copy-right-area{
+   background: #202020;
+   padding: 20px;
+   margin-top: 1.5rem;
+}
+
+.copy-right-text{
+    font-size: 15px;
+    color: white;
+}
+
+.copy-right-text a {
+    color: #ff5e14;
+    text-decoration: none;
+
+}
+
+
+.footer-menue ul li {
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+.footer-menue ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-menue ul li a:hover{
+    color: #ff5e14;
+}
